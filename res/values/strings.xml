@@ -20,6 +20,8 @@
     <string name="tabSettingsDescription">Go to this section to configure the Xposed Installer and framework.</string>
     <string name="tabLogs">Logs</string>
     <string name="tabLogsDescription">Display and save/send logs of the Xposed framework.</string>
+    <string name="tabSupport">Support</string>
+    <string name="tabSupportDescription">Find help for problems with the Installer/framework or modules. Donate to support the development of the framework.</string>
     <string name="tabAbout">About</string>
     <string name="tabAboutDescription">Learn about the people who created Xposed, where to get support for this app etc.</string>
 
@@ -191,5 +193,13 @@
     <string name="repo_download_failed_http">Downloading %1$s failed: %2$d (%3$s)</string>
     <string name="repo_download_failed">Downloading %1$s failed: %2$s</string>
     <string name="repo_load_failed">Cannot load repository from %1$s:\n%2$s</string>
+
+    <!-- Support tab -->
+    <string name="support_donate_label">Donate</string>
+    <string name="support_donate_description">Donate to the project to support further development of the Xposed framework</string>
+    <string name="support_framework_label">Framework/Installer support</string>
+    <string name="support_faq_label">FAQ/Known issues</string>
+    <string name="support_modules_label">Modules support</string>
+    <string name="support_modules_description">Long click any module in the modules list and select \"%1$s\" to open its support thread if existent</string>
 
 </resources>

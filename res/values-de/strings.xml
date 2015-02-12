@@ -20,6 +20,8 @@
     <string name="tabSettingsDescription">In diesem Bereich kannst du den Xposed Installer und das Xposed-Framework anpassen.</string>
     <string name="tabLogs">Logs</string>
     <string name="tabLogsDescription">Logs des Xposed-Frameworks ansehen, speichern und senden.</string>
+    <string name="tabSupport">Support</string>
+    <string name="tabSupportDescription">Support für Probleme mit dem Installer/Framework und Modulen. Spende um die Entwicklung des Frameworks zu unterstützen.</string>
     <string name="tabAbout">Über</string>
     <string name="tabAboutDescription">Erfahre mehr darüber, wer hinter Xposed steckt, wo du Support für diese App erhalten kannst etc.</string>
 
@@ -191,5 +193,13 @@
     <string name="repo_download_failed_http">Herunterladen von %1$s fehlgeschlagen: %2$d (%3$s)</string>
     <string name="repo_download_failed">Herunterladen von %1$s fehlgeschlagen: %2$s</string>
     <string name="repo_load_failed">Verzeichnis konnte nicht geladen werden von %1$s:\n%2$s</string>
+
+    <!-- Support tab -->
+    <string name="support_donate_label">Spenden</string>
+    <string name="support_donate_description">Spende an das Projekt, um die weitere Entwicklung des Xposed-Frameworks zu unterstützen</string>
+    <string name="support_framework_label">Framework/Installer Support</string>
+    <string name="support_faq_label">FAQ/Bekannte Fehler</string>
+    <string name="support_modules_label">Support für Module</string>
+    <string name="support_modules_description">In der Modulliste ein Modul lang drücken und dann \"%1$s\" auswählen, um den jeweiligen Thread zu öffnen, falls vorhanden</string>
 
 </resources>

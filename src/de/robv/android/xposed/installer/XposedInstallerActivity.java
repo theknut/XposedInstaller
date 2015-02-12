@@ -1,9 +1,9 @@
 package de.robv.android.xposed.installer;
 
-import java.util.HashMap;
-
 import android.content.Intent;
 import android.os.Bundle;
+
+import java.util.HashMap;
 
 public class XposedInstallerActivity extends XposedDropdownNavActivity {
 	public static final String EXTRA_SECTION = "section";
@@ -16,6 +16,7 @@ public class XposedInstallerActivity extends XposedDropdownNavActivity {
 		TABS.put("modules", TAB_MODULES);
 		TABS.put("download", TAB_DOWNLOAD);
 		TABS.put("logs", TAB_LOGS);
+		TABS.put("support", TAB_SUPPORT);
 		TABS.put("settings", TAB_SETTINGS);
 		TABS.put("about", TAB_ABOUT);
 	}

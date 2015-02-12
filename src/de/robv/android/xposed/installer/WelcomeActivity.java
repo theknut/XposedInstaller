@@ -37,7 +37,8 @@ public class WelcomeActivity extends XposedBaseActivity implements ModuleListene
 		mAdapter.add(new WelcomeItem(R.string.tabModules, R.string.tabModulesDescription));
 		mAdapter.add(new WelcomeItem(R.string.tabDownload, R.string.tabDownloadDescription));
 		mAdapter.add(new WelcomeItem(R.string.tabSettings, R.string.tabSettingsDescription));
-		mAdapter.add(new WelcomeItem(R.string.tabLogs, R.string.tabLogsDescription));
+        mAdapter.add(new WelcomeItem(R.string.tabSupport, R.string.tabSupportDescription));
+        mAdapter.add(new WelcomeItem(R.string.tabLogs, R.string.tabLogsDescription));
 		mAdapter.add(new WelcomeItem(R.string.tabAbout, R.string.tabAboutDescription));
 
 		ListView lv = (ListView) findViewById(R.id.welcome_list);
